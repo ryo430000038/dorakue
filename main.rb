@@ -4,16 +4,15 @@ require_relative "./chara.rb"
 
 
 
-
-
-
 #ゲーム開始
   def game_start
     p @yusha.cara
     p @monster.cara
-    battle!
     
+    battle!
   end
+  
+  
   
   #戦い
   def battle!

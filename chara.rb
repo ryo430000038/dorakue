@@ -7,7 +7,6 @@ class Chara
   def initialize(name,offence,hp)
     @name= name
     @offence = offence
-    #@defence = defence
     @hp = hp
   end
   
